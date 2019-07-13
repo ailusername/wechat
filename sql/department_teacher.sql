@@ -1,10 +1,10 @@
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
--- Table structure for department
+-- Table structure for department_teacher
 -- ----------------------------
-DROP TABLE IF EXISTS `department`;
-CREATE TABLE `department`
+DROP TABLE IF EXISTS `department_teacher`;
+CREATE TABLE `department_teacher`
 (
   `department_id`                     int(11) NOT NULL,
   `teacher_id`                        int(11) NOT NULL,

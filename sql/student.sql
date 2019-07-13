@@ -4,7 +4,7 @@ SET FOREIGN_KEY_CHECKS = 0;
 -- Table structure for student
 -- ----------------------------
 DROP TABLE IF EXISTS `student`;
-CREATE TABLE `company`
+CREATE TABLE `student`
 (
   `student_id`            int(11)       NOT NULL auto_increment,
   `student_name`          varchar(8) NOT NULL,

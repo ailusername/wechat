@@ -8,7 +8,7 @@ CREATE TABLE `company`
 (
   `company_id`            int       NOT NULL auto_increment,
   `company_name`          varchar(100) NOT NULL,
-  PRIMARY KEY (`cid`),
+  PRIMARY KEY (`company_id`),
   index `idx_company_name` (`company_name`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8
